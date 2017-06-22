@@ -3,6 +3,7 @@ Template for Blog based on jekyll
 
 # How-to
 * `_config.yml`
+
   ```
   title: your title
   email: your email
@@ -23,7 +24,9 @@ Template for Blog based on jekyll
   kramdown:
   input: GFM
   ```
+  
 * `_includes/header.html`
+
   ```html
     // your blog title
     <div class="trigger">
@@ -31,7 +34,9 @@ Template for Blog based on jekyll
       <a class="page-link" href="/jekyll-template/tags.html">Tags</a>
     </div>
   ```
+  
 * `_layouts/post.html`
+
   ```js
     // fetch your own comments
     fetch('https://api.github.com/repos/zhoukekestar/jekyll-template/issues/{{page.commentIssueId}}/comments', {
@@ -44,7 +49,9 @@ Template for Blog based on jekyll
       loadComments(body);
     })
   ```
+  
 * `css/main.scss`
+
   ```css
     .abc {
     // your custom style

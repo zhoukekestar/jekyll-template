@@ -38,7 +38,9 @@ Template for Blog based on jekyll
 * `_layouts/post.html`
 
   ```js
+  
     // fetch your own comments
+    
     fetch('https://api.github.com/repos/zhoukekestar/jekyll-template/issues/{{page.commentIssueId}}/comments', {
       headers: {
         Accept: "application/vnd.github.full+json"

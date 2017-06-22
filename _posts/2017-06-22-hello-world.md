@@ -11,6 +11,10 @@ commentIssueId: 1
 <style>
   button {
     border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background: #00a1ff;
+    color: #fff;
   }
 </style>
-<button onclick='alert("hello World")'>Hello World</div>
+<button onclick='alert("hello World")'>Hello World</button>

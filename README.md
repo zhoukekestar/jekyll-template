@@ -41,3 +41,4 @@ Template for Blog based on jekyll
         loadComments(body);
       })
   ```
+* Modify your page style `css/main.scss`

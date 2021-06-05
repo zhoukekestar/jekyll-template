@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "hello world"
-date: 2017-06-22
+title: "Bill's notebook"
+date: 2021-6-9
 tags: [blog]
 commentIssueId: 1
 ---
